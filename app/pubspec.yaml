@@ -1,0 +1,41 @@
+name: music_app
+description: "A personal ad-free Spotify-inspired music streaming application."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Audio playback & background service
+  just_audio: ^0.9.36
+  just_audio_windows: ^0.2.2
+  audio_service: ^0.18.12
+  
+  # Network & API
+  dio: ^5.4.1
+  
+  # State management
+  flutter_riverpod: ^2.5.1
+  
+  # Routing
+  go_router: ^13.2.0
+  
+  # Image caching
+  cached_network_image: ^3.3.1
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  just_audio_web: ^0.4.16
+  youtube_player_iframe: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
